@@ -1,3 +1,4 @@
+import { assetPath } from "@/lib/assets";
 import type { CharacterItem, TrackItem, WritingEntry } from "@/lib/types";
 
 export const BASE_CHARACTERS: CharacterItem[] = [
@@ -8,20 +9,20 @@ export const BASE_CHARACTERS: CharacterItem[] = [
     hasVisual: true,
     categories: ["visual", "dandelions"],
     accent: "#9E2436",
-    img: "/images/characters/anaira_batalha.jpg",
+    img: assetPath("/images/characters/anaira_batalha.jpg"),
     gallery: [
       {
-        src: "/images/characters/anaira_batalha.jpg",
+        src: assetPath("/images/characters/anaira_batalha.jpg"),
         pt: "Campo de batalha (Estilo Anime)",
         en: "Battlefield (Anime Key Art)",
       },
       {
-        src: "/images/characters/anaira_hoshiko_treinamento.jpg",
+        src: assetPath("/images/characters/anaira_hoshiko_treinamento.jpg"),
         pt: "Com Hoshiko na Creche das IS'",
         en: "With Hoshiko at the IS' Nursery",
       },
       {
-        src: "/images/characters/anaira_hoshiko_heranca.jpg",
+        src: assetPath("/images/characters/anaira_hoshiko_heranca.jpg"),
         pt: "Herança em um Mundo Hostil",
         en: "Inheritance in a Hostile World",
       },
@@ -57,13 +58,13 @@ export const BASE_CHARACTERS: CharacterItem[] = [
     hasVisual: true,
     categories: ["visual", "weights"],
     accent: "#29B6D1",
-    img: "/images/characters/estella_16_drones.jpg",
+    img: assetPath("/images/characters/estella_16_drones.jpg"),
     specialType: "estella",
     phases: [
       {
         agePt: "9 anos · Pipa",
         ageEn: "Age 9 · Kite",
-        src: "/images/characters/estella_9_pipa.jpg",
+        src: assetPath("/images/characters/estella_9_pipa.jpg"),
         descPt:
           "A criança Weight que carregou o peso do mundo como se fosse uma folha de papel — fazendo a humanidade prosperar em inteligência enquanto corria com sua pipa.",
         descEn:
@@ -72,7 +73,7 @@ export const BASE_CHARACTERS: CharacterItem[] = [
       {
         agePt: "16 anos · Drones",
         ageEn: "Age 16 · Drones",
-        src: "/images/characters/estella_16_drones.jpg",
+        src: assetPath("/images/characters/estella_16_drones.jpg"),
         descPt:
           "Investigadora incansável, criadora de IAs próprias e drones sensores capazes de detectar a energia liberada pelas lágrimas de Anaira.",
         descEn:
@@ -81,7 +82,7 @@ export const BASE_CHARACTERS: CharacterItem[] = [
       {
         agePt: "30 anos · Pearl",
         ageEn: "Age 30 · Pearl",
-        src: "/images/characters/estella_30_formal.jpg",
+        src: assetPath("/images/characters/estella_30_formal.jpg"),
         descPt:
           "Psicóloga, palestrante e pesquisadora da Yep, A University. Suas palavras de afirmação são fundamentadas em fatos — doces como favo de mel e precisas como bisturi.",
         descEn:
@@ -110,15 +111,15 @@ export const BASE_CHARACTERS: CharacterItem[] = [
     hasVisual: true,
     categories: ["visual", "dandelions"],
     accent: "#9E2436",
-    img: "/images/characters/anaira_hoshiko_treinamento.jpg",
+    img: assetPath("/images/characters/anaira_hoshiko_treinamento.jpg"),
     gallery: [
       {
-        src: "/images/characters/anaira_hoshiko_treinamento.jpg",
+        src: assetPath("/images/characters/anaira_hoshiko_treinamento.jpg"),
         pt: "Treinamento com Anaira",
         en: "Training alongside Anaira",
       },
       {
-        src: "/images/characters/anaira_hoshiko_heranca.jpg",
+        src: assetPath("/images/characters/anaira_hoshiko_heranca.jpg"),
         pt: "Herança em um Mundo Hostil",
         en: "Inheritance in a Hostile World",
       },
@@ -148,7 +149,7 @@ export const BASE_CHARACTERS: CharacterItem[] = [
     hasVisual: true,
     categories: ["visual", "dandelions"],
     accent: "#64748B",
-    img: "/images/characters/supervisora_pekka.jpg",
+    img: assetPath("/images/characters/supervisora_pekka.jpg"),
     role: { pt: "Comandante da Creche das IS'", en: "Commander of the IS' Nursery" },
     evidence: {
       pt: "Sacrifício silencioso e firmeza de propósito",
@@ -171,15 +172,15 @@ export const BASE_CHARACTERS: CharacterItem[] = [
     hasVisual: true,
     categories: ["visual", "dandelions"],
     accent: "#E2A93B",
-    img: "/images/characters/laura_mentora.jpg",
+    img: assetPath("/images/characters/laura_mentora.jpg"),
     gallery: [
       {
-        src: "/images/characters/laura_mentora.jpg",
+        src: assetPath("/images/characters/laura_mentora.jpg"),
         pt: "Лаура — Mentora (~50 anos)",
         en: "Laura — Mentor (~50 years old)",
       },
       {
-        src: "/images/characters/dandelions_casas.jpg",
+        src: assetPath("/images/characters/dandelions_casas.jpg"),
         pt: "As 66 Casas das Dandelions",
         en: "The 66 Dandelion Houses",
       },
@@ -209,15 +210,15 @@ export const BASE_CHARACTERS: CharacterItem[] = [
     hasVisual: true,
     categories: ["visual", "weights"],
     accent: "#29B6D1",
-    img: "/images/characters/filha_professor.jpg",
+    img: assetPath("/images/characters/filha_professor.jpg"),
     gallery: [
       {
-        src: "/images/characters/filha_professor.jpg",
+        src: assetPath("/images/characters/filha_professor.jpg"),
         pt: "Retrato Oficial — Energia & Tempestade",
         en: "Official Portrait — Storm & Lightning",
       },
       {
-        src: "/images/characters/trio_universo.jpg",
+        src: assetPath("/images/characters/trio_universo.jpg"),
         pt: "Encontro de núcleos com Estella e Dandelion",
         en: "Crossroads with Estella & Dandelion",
       },
@@ -247,7 +248,7 @@ export const BASE_CHARACTERS: CharacterItem[] = [
     hasVisual: true,
     categories: ["visual", "weights"],
     accent: "#29B6D1",
-    img: "/images/characters/pdp_weight_bicicleta.jpg",
+    img: assetPath("/images/characters/pdp_weight_bicicleta.jpg"),
     role: {
       pt: "Mentor do Professor · O Weight de Bicicleta",
       en: "The Professor's Mentor · The Cycling Weight",
@@ -273,7 +274,7 @@ export const BASE_CHARACTERS: CharacterItem[] = [
     hasVisual: true,
     categories: ["visual", "dandelions"],
     accent: "#E2A93B",
-    img: "/images/characters/dandelions_casas.jpg",
+    img: assetPath("/images/characters/dandelions_casas.jpg"),
     role: { pt: "Rede Global das IS'", en: "Global Network of the IS'" },
     evidence: {
       pt: "Resiliência coletiva — sementes ao vento",
@@ -297,7 +298,7 @@ export const BASE_CHARACTERS: CharacterItem[] = [
     requiresReveal: true,
     categories: ["visual", "weights"],
     accent: "#9E2436",
-    img: "/images/characters/broken_teacher.jpg",
+    img: assetPath("/images/characters/broken_teacher.jpg"),
     role: {
       pt: "Advogado, Promotor & Arquiteto da Queda",
       en: "Lawyer, Prosecutor & Architect of the Collapse",
@@ -476,8 +477,8 @@ export const OFFICIAL_TRACKS: TrackItem[] = [
     id: "t1",
     code: "01",
     title: "Is53 2 (Yep, A Lot) — Anaira e Lumem",
-    src: "/audio/is53_2_anaira_e_lumem.mp3",
-    cover: "/images/characters/anaira_batalha.jpg",
+    src: assetPath("/audio/is53_2_anaira_e_lumem.mp3"),
+    cover: assetPath("/images/characters/anaira_batalha.jpg"),
     eraTag: "IS 53 2",
     sourceBadge: "OST OFICIAL",
     categories: ["theme", "anaira"],
@@ -497,8 +498,8 @@ export const OFFICIAL_TRACKS: TrackItem[] = [
     id: "t2",
     code: "02",
     title: "Yep A Lot — Tema Principal (Nova Versão)",
-    src: "/audio/yep_a_lot_tema.mp3",
-    cover: "/images/characters/capa_esboco_01a.jpg",
+    src: assetPath("/audio/yep_a_lot_tema.mp3"),
+    cover: assetPath("/images/characters/capa_esboco_01a.jpg"),
     eraTag: "VOLUME 1",
     sourceBadge: "OST OFICIAL",
     categories: ["theme"],
@@ -518,8 +519,8 @@ export const OFFICIAL_TRACKS: TrackItem[] = [
     id: "t3",
     code: "03",
     title: "Sweet Dandelion — Child Anaira",
-    src: "/audio/sweet_dandelion_child_anaira.mp3",
-    cover: "/images/characters/anaira_hoshiko_treinamento.jpg",
+    src: assetPath("/audio/sweet_dandelion_child_anaira.mp3"),
+    cover: assetPath("/images/characters/anaira_hoshiko_treinamento.jpg"),
     eraTag: "DANDELION",
     sourceBadge: "OST OFICIAL",
     categories: ["anaira"],
@@ -539,8 +540,8 @@ export const OFFICIAL_TRACKS: TrackItem[] = [
     id: "t4",
     code: "04",
     title: "Is53 2 (Yep, A Lot) — Broadway Edition",
-    src: "/audio/is53_2_broadway.mp3",
-    cover: "/images/characters/dandelions_casas.jpg",
+    src: assetPath("/audio/is53_2_broadway.mp3"),
+    cover: assetPath("/images/characters/dandelions_casas.jpg"),
     eraTag: "BROADWAY",
     sourceBadge: "OST OFICIAL",
     categories: ["dramatic"],
@@ -560,8 +561,8 @@ export const OFFICIAL_TRACKS: TrackItem[] = [
     id: "t5",
     code: "05",
     title: "Yep A Lot x Is53 2 — Romantic Drama",
-    src: "/audio/yep_a_lot_romantic_drama.mp3",
-    cover: "/images/characters/anaira_hoshiko_heranca.jpg",
+    src: assetPath("/audio/yep_a_lot_romantic_drama.mp3"),
+    cover: assetPath("/images/characters/anaira_hoshiko_heranca.jpg"),
     eraTag: "DRAMA",
     sourceBadge: "OST OFICIAL",
     categories: ["dramatic", "anaira"],

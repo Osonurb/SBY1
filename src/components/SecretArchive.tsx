@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useUniverse } from "@/components/UniverseContext";
+import { assetPath } from "@/lib/assets";
 
 export function SecretArchive() {
   const { lang, revealed, triggerReveal, resetReveal } = useUniverse();
@@ -131,7 +132,7 @@ export function SecretArchive() {
               <div className="bg-[#12161D] hairline-all overflow-hidden flex flex-col">
                 <div className="aspect-[4/3] overflow-hidden bg-[#0B0E12]">
                   <img
-                    src="/images/characters/bilhete_enigma.jpg"
+                    src={assetPath("/images/characters/bilhete_enigma.jpg")}
                     alt="Bilhete rasgado"
                     className="w-full h-full object-cover"
                   />
@@ -182,7 +183,7 @@ export function SecretArchive() {
               <div className="bg-[#12161D] hairline-all overflow-hidden flex flex-col">
                 <div className="aspect-[4/3] overflow-hidden bg-[#0B0E12]">
                   <img
-                    src="/images/characters/broken_teacher.jpg"
+                    src={assetPath("/images/characters/broken_teacher.jpg")}
                     alt="Broken Teacher"
                     className="w-full h-full object-cover object-top"
                   />

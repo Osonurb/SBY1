@@ -10,6 +10,7 @@ import React, {
   useState,
 } from "react";
 import { BASE_CHARACTERS, OFFICIAL_TRACKS, VALID_REVEAL_CODES } from "@/data/universe";
+import { assetPath } from "@/lib/assets";
 import { isSupabaseConfigured, supabase } from "@/lib/supabase";
 import { fetchWorkspaceData } from "@/lib/repository";
 import type {
@@ -383,7 +384,7 @@ export function UniverseProvider({ children }: { children: React.ReactNode }) {
         code: String(tracks.length + 1).padStart(2, "0"),
         title: cleanName,
         src: url,
-        cover: "/images/characters/capa_esboco_01a.jpg",
+        cover: assetPath("/images/characters/capa_esboco_01a.jpg"),
         eraTag: "LOCAL",
         sourceBadge: lang === "pt" ? "ARQUIVO LOCAL" : "LOCAL FILE",
         categories: ["theme"],

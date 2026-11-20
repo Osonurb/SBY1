@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useUniverse } from "@/components/UniverseContext";
 import { CharacterGrid } from "@/components/CharacterGrid";
 import { SecretArchive } from "@/components/SecretArchive";
+import { assetPath } from "@/lib/assets";
 
 export default function HomePage() {
   const { lang, era, revealed, clues, openCharacterModal } = useUniverse();
@@ -125,8 +126,8 @@ export default function HomePage() {
                   <img
                     src={
                       era === "broken"
-                        ? "/images/characters/anaira_hoshiko_treinamento.jpg"
-                        : "/images/characters/anaira_batalha.jpg"
+                        ? assetPath("/images/characters/anaira_hoshiko_treinamento.jpg")
+                        : assetPath("/images/characters/anaira_batalha.jpg")
                     }
                     alt="Anaira — IS 53 2 / Dandelion"
                     className="w-full h-full object-cover object-top"
@@ -278,7 +279,7 @@ export default function HomePage() {
             <div className="lg:col-span-5">
               <div className="bg-[#14171D] p-3 shadow-2xl">
                 <img
-                  src="/images/characters/capa_esboco_01a.jpg"
+                  src={assetPath("/images/characters/capa_esboco_01a.jpg")}
                   alt="Capa Esboço de História 0.1.A"
                   className="w-full h-auto block"
                 />
